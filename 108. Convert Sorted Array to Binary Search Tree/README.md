@@ -1,5 +1,9 @@
 # [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=problem-list-v2&envId=p29oug1s)`EASY`
 
+## Note for Leetcode Submission
+
+**Important:** Only the code inside the `Solution` class should be submitted to Leetcode.
+
 ## Notes:
 - The `NameError` you are encountering is due to the fact that `Optional` from the `typing` module is not imported. `Optional` is used to indicate that a value can either be of a specified type or `None`.
 - The `sortedArrayToBST` method should be called using the instance of the `Solution` class. 

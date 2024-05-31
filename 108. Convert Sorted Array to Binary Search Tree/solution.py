@@ -25,7 +25,8 @@ def printTree(node: Optional[TreeNode], level=0, prefix="Root: "):
 
 
 class Solution:
-    def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
+    # Note: Only the code inside this class should be submitted to Leetcode.
+    def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:       
         # base condition
         if(len(nums) == 1) : return TreeNode(nums[0])
         if(len(nums) == 0) : return None
