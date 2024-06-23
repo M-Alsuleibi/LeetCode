@@ -1,5 +1,5 @@
 # [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) `EASY`
-## My sloution that <code style="color : red">Time Limit Exceeded</code> : 
+## My Sloution Which Is <code style="color : red">Time Limit Exceeded</code> : 
 ```python3
 # Definition for singly-linked list.
 # class ListNode:
@@ -32,7 +32,7 @@ class Solution:
  
 ```
 --- 
-## `solution.py` Follow Dummy Node Approach
+## Dummy Node Approach Used In `solution.py` Which Is <code style="color : yellowgreen">Accepted</code>:
 The approach using a dummy node is commonly referred to as the "Dummy Node" or "Sentinel Node" pattern. This technique is widely used in linked list problems to simplify edge case handling and streamline the code.
 
 ### Detailed Explanation of the Dummy Node Approach
