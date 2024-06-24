@@ -129,4 +129,6 @@ class Solution:
 
 Using a dummy node ensures that you always have a non-null node to work with, which simplifies list manipulations and edge case handling.
 
-## [YouTube - Leetcode Tricks - Dummy Nodes in Linked Lists (Python)](https://www.youtube.com/watch?v=-Cjgt5I0YvM)
+## YouTube Helping Videos
+- [Leetcode Tricks - Dummy Nodes in Linked Lists (Python)](https://www.youtube.com/watch?v=-Cjgt5I0YvM)
+- [Practice with Dummy Head Approach / Leetcode #21 Merge Two Sorted Lists](https://www.youtube.com/watch?v=JwjYZHmaK4E)
