@@ -1,4 +1,4 @@
-# [143. Reorder List](https://leetcode.com/problems/reorder-list/description/) `EASY`
+# [143. Reorder List](https://leetcode.com/problems/reorder-list/description/) `MEDIUM`
 ## This problem follows three stages: 
 1. Slow and fast pointers approach to reach the middle of the linked list
 2. Breaking the original list into two halves(equal halves if number of nodes in the original list are EVEN and viseverca).Then reverse the second half.
