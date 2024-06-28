@@ -1,0 +1,1 @@
+# [1. Two Sum](https://leetcode.com/problems/two-sum/description/?utm_medium=email&_hsenc=p2ANqtz-8aWvAyqUY9AgrYTjdm-domy6I-CRKkUmXuBIjx4_dhr9N8N1Ti1W5eXO7-Y1I1Ob6bTEvfMMVEkbumDyf6pKxey9h8JlZRwi38tAWDjZYNhCP2vZs&_hsmi=260797775&utm_source=hs_email) `EASY`
