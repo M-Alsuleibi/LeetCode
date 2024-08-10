@@ -13,8 +13,7 @@ This is not an intuitive problem, unfortunately. It can be broken down into two 
 2. **Floyd's Algorithm**, which is used to detect the beginning of a cycle in a linked list.
 
 The core of the problem lies in understanding that the values within the input array are bounded within the range [1, n]. This range also applies to the indices of the array, creating a block of length `n` that is guaranteed to contain a cycle. The trick is to follow the inline comments in the code with an example input `[1, 3, 4, 2, 2]` and understand the node representation (where each node represents an index, not the value inside the array).
-
-![Screenshot Description](https://drive.google.com/file/d/1XotIV0xP-Bx7LhPEdnea-Q7QlpoMB6-S/view?usp=sharing)
+![alt text](<Screenshot from 2024-08-10 17-50-58.png>)
 
 ## Complexity
 
