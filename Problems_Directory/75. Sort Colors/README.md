@@ -13,7 +13,11 @@
 _O(n)_
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
-_O(n)_
+_O(1)_
+- Because it is an in-place algorithm. Where the extra space that we allocate for the bucket/count array is limited to the range of values in the input array( in this problem it is 3 (0, 1,2) ) .
+So overall the extra memory we use is constant O(3) -> O(1)
+
+
 # Code
 ```python3 []
 class Solution:
