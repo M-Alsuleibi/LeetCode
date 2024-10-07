@@ -1,18 +1,16 @@
 class Solution:
     def maxProductDifference(self, nums: List[int]) -> int:
-        # To have the max diff : the first pair must be the largest, second pair must be the lowest
-        # Largest pair value can be achived by choosing the largest and second large value in the array
-        # Lowest pair value by doing the opposite
-        
-        # Time Complexity: O(NLogN)
-        # phase 1
-        nums.sort()
-        a = nums.pop()
-        b = nums.pop()
-        # phase 2
-        nums.reverse()
-        c = nums.pop()
-        d = nums.pop()
-
-        return (a * b) - (c * d)
-
+        #Brute Force: T O(nlogn), M O(1)
+        # Optomized: constructing min/max heaps with a cost of O(2 * n) to heapify it twice
+        # T O(n), M O(n)
+        minHeap = [ num for num in nums]
+        maxHeap = [-num for num in nums]
+        heapq.heapify(minHeap)
+        heapq.heapify(maxHeap)
+        w = x = y = z = 0
+        w = heapq.heappop(minHeap)
+        x = heapq.heappop(minHeap)
+        y = - heapq.heappop(maxHeap)
+        z = - heapq.heappop(maxHeap)
+        return (y * z) - (w * x)
+    
