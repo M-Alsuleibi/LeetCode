@@ -12,7 +12,8 @@ I'm proud of my progress on LeetCode, and I'm constantly working to improve my p
 
 ![LeetCode Badge](https://assets.leetcode.com/static_assets/marketing/2024-50.gif)
 ![LeetCode Badge](https://assets.leetcode.com/static_assets/marketing/2024-100-new.gif)
-![LeetCode Badge](https://assets.leetcode.com/static_assets/others/badge-background.png)
+![LeetCode Badge](https://assets.leetcode.com/static_assets/others/LeetCode_75.gif)
+
 ## **6 Steps to Ace the Coding Interview**
 
 These steps are not a specific industry standard that everybody agreed to follow. However, it’s generally understood that this is the high-level approach to succeed.
